@@ -4,7 +4,7 @@ codes/Infer.py
 
 One-command inference for HASolGNN or HASolGNN-LLMs.
 Run example:
-  python codes/infer.py \
+  python codes/Infer.py \
     --checkpoint checkpoints/best_ckpt.pt \
     --solute "CCO" \
     --solvent "O" \
