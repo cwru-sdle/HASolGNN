@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-codes/infer.py
+codes/Infer.py
 
 One-command inference for HASolGNN or HASolGNN-LLMs.
 Run example:
