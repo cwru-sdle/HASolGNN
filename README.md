@@ -3,6 +3,32 @@ This repository contains the codes and datasets for the reproducibility of the e
 
 This paper proposes HASolGNN, a hierarchical-attention graph neural networks for solubility prediction. (1) HASolGNN adopts a three-level hierarchical attention framework to characterize atom-bond level, molecular level, and interaction-graph level features. This allows a more comprehensive modeling of both intra-molecular and inter-molecular interactions for solute-solvent dissolution as a complex dynamic system. (2) To mitigate the impact of small annotated data, We also investigate the role of Large Language Models (LLMs), and introduce HASolGNN-LLMs, an LLM-enhanced counterpart that leverages LLMs to infer annotated features and embeddings to improve the representation learning. Our experiments verified that (1) HASolGNN outperforms the state-of-the-art methods in solubility prediction; and (2) HASolGNN-LLMs effectively exploit LLMs to enhance sparse annotated data, and further improves the accuracy.
 
+## Citation
+
+If you use this software, please cite the accompanying paper:
+
+> Yangxin Fan, Yinghui Wu, Roger H. French, Danny Perez, Michael G. Taylor, and Ping Yang, “Hierarchical attention graph learning with LLM enhancement for molecular solubility prediction,” Digital Discovery, vol. 5, no. 2, pp. 603–616, Feb. 2026, doi: 10.1039/D5DD00407A. 
+
+```bibtex
+@article{fanHierarchicalAttentionGraph2026a,
+	title = {Hierarchical attention graph learning with {LLM} enhancement for molecular solubility prediction},
+	volume = {5},
+	issn = {2635-098X},
+	url = {https://pubs.rsc.org/en/content/articlelanding/2026/dd/d5dd00407a},
+	doi = {10.1039/D5DD00407A},
+	language = {en},
+	number = {2},
+	urldate = {2026-05-31},
+	journal = {Digital Discovery},
+	publisher = {RSC},
+	author = {{Yangxin Fan} and {Yinghui Wu} and {Roger H. French} and {Danny Perez} and {Michael G. Taylor} and {Ping Yang}},
+	month = feb,
+	year = {2026},
+	keywords = {\#duplicate, \#multiple\_attachments\_of\_same\_type, \#nosource, DE-NA0004104},
+	pages = {603--616},
+}
+```
+
 ## Organization of the code
 
 All the code for the models described in the paper can be found in *codes. 
